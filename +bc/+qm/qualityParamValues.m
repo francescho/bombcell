@@ -22,7 +22,7 @@ param = struct; %initialize structure
 
 %% calculating quality metrics parameters 
 % plotting parameters 
-param.plotDetails = 0; % generates a lot of plots, 
+param.plotDetails = 1; % generates a lot of plots, 
     % mainly good if you running through the code line by line to check things,
     % to debug, or to get nice plots for a presentation
 param.plotGlobal = 1; % plot summary of quality metrics 
